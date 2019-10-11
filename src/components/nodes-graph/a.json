@@ -1,0 +1,596 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": {
+        "nodes": [
+            {
+                "id": 44,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/20190925181813-217007/attach_file/wechat/55b7e2181024440c97eaa2687557a961",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "王小草",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_ytrjbxp5lfe722",
+                "zoom": 0.5
+            },
+            {
+                "id": 28,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/20190925181813-217007/attach_file/wechat/9ad838f425b6420cb005255cfabdaa3f",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "孫怂怂",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":sj85mn00td",
+                "zoom": 0.5
+            },
+            {
+                "id": 29,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/a586ce6341777cd782ce09be8e4d4dd1/avatar",
+                "type": "ACCOUNT",
+                "accountType": "QQ_GROUP",
+                "name": "x、cic1、278735052",
+                "app": "QQ",
+                "appCode": "1030001",
+                "accountKey": "708629310",
+                "zoom": 0.5
+            },
+            {
+                "id": 20639,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/010000110000111111201902181916353976250673544320631992330/attach_file/wechat/thi.jpg",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "yy",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_j72c0k1mlpne14",
+                "zoom": 0.5
+            },
+            {
+                "id": 20638,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/010000110000111111201902181916353976250673544320631992330/attach_file/wechat/cici.jpg",
+                "type": "PERSON",
+                "name": "张三",
+                "personId": 1,
+                "zoom": 1.0
+            },
+            {
+                "id": 172,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/68a820bbe82628580e0bb30d29a74f4f/avatar",
+                "type": "ACCOUNT",
+                "accountType": "ALI_PAY_ACCOUNT",
+                "name": "白麻雀",
+                "app": "支付宝",
+                "appCode": "1290007",
+                "accountKey": "2088622217882741:",
+                "zoom": 0.5
+            },
+            {
+                "id": 250,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/db81386c54a5470da7e1cc403ffb9a03/avatar",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "x",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":qianqijinnian",
+                "zoom": 0.5
+            },
+            {
+                "id": 251,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/20190925181813-217007/attach_file/wechat/66c04cd37b1c425896a00e5db163d892",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "pp1,廷东,冬冬",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_ath6ispvidrs22",
+                "zoom": 0.5
+            },
+            {
+                "id": 152,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/9c55d2913f9fa85009fc76c8e16edfb5/avatar",
+                "type": "ACCOUNT",
+                "accountType": "ALI_PAY_ACCOUNT",
+                "name": "璟慧",
+                "app": "支付宝",
+                "appCode": "1290007",
+                "accountKey": "2088912172074395:",
+                "zoom": 0.5
+            },
+            {
+                "id": 230,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/19333917699a1243a07e1af956dddd6d/avatar",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "Mr.Wu\uD83D\uDC51,Mr.A,我是MM,团购找我",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_r8pzjd6s92fn22",
+                "zoom": 0.5
+            },
+            {
+                "id": 253,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/cdfa92b5bae0c3967518d0f6f15f69e4/avatar",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "dd2,手心的蔷薇92,最好的遇见最美的期待",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_19ldlme2qgb922",
+                "zoom": 0.5
+            },
+            {
+                "id": 254,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/20190925181813-217007/attach_file/wechat/9e340cd4271e4b28bdf772ed22723ad6",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "小飞仙\uD83C\uDF88",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":r398398",
+                "zoom": 0.5
+            },
+            {
+                "id": 111,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/010000110000111111201902181916353976250673544320631992330/attach_file/wechat/1563266630.png",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_GROUP",
+                "name": "外卖红包群",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": "1373017517@chatroom",
+                "zoom": 0.5
+            },
+            {
+                "id": 118,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/bed1459dfe838ced0346078ed368df0c/avatar",
+                "type": "ACCOUNT",
+                "accountType": "QQ_ACCOUNT",
+                "name": "yy3",
+                "app": "QQ",
+                "appCode": "1030001",
+                "accountKey": ":6485656",
+                "zoom": 0.5
+            },
+            {
+                "id": 71,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/5bf8deafa10dcc450b992e255cf8de30/avatar",
+                "type": "ACCOUNT",
+                "accountType": "QQ_ACCOUNT",
+                "name": "hh,3434959637",
+                "app": "QQ",
+                "appCode": "1030001",
+                "accountKey": ":3434959637",
+                "zoom": 0.5
+            },
+            {
+                "id": 75,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/fcfc4e676b51b5b61b415bbb62325740/avatar",
+                "type": "ACCOUNT",
+                "accountType": "ALI_PAY_ACCOUNT",
+                "name": "y",
+                "app": "支付宝",
+                "appCode": "1290007",
+                "accountKey": "2088502648548420:",
+                "zoom": 0.5
+            },
+            {
+                "id": 33,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/4d595989b4736d76334b4bccd3aa7f57/avatar",
+                "type": "ACCOUNT",
+                "accountType": "QQ_ACCOUNT",
+                "name": "278735052,芷 柚，,李悦",
+                "app": "QQ",
+                "appCode": "1030001",
+                "accountKey": ":278735052",
+                "zoom": 0.5
+            },
+            {
+                "id": 13,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/31c27338609b97368b0429c52342efb0/avatar",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "何雷宏",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_hv7c9c22cs4x12",
+                "zoom": 0.5
+            },
+            {
+                "id": 20640,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/dbee9189244e887eff4032adc40fb038/avatar",
+                "type": "ACCOUNT",
+                "accountType": "ALI_PAY_ACCOUNT",
+                "name": "遥远的她",
+                "app": "支付宝",
+                "appCode": "1290007",
+                "accountKey": "2088022780945335:",
+                "zoom": 0.5
+            },
+            {
+                "id": 141,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/20190925181813-217007/attach_file/wechat/419fa97fd4ee4403a854c0f9987a078f",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "Happy life\uD83D\uDC51,小飞仙 \uD83D\uDD14\uD83D\uDD14\uD83D\uDD14,春困中",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_iad5ng17bxnb12",
+                "zoom": 0.5
+            },
+            {
+                "id": 100,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/059fb30af871b3da86735ca127889e7e/avatar",
+                "type": "ACCOUNT",
+                "accountType": "QQ_ACCOUNT",
+                "name": "Jay",
+                "app": "QQ",
+                "appCode": "1030001",
+                "accountKey": ":548565",
+                "zoom": 0.5
+            },
+            {
+                "id": 244,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/010000110000111111201902181916353976250673544320631992330/attach_file/wechat/for.jpg",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "Jay",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_k72c0k1mlpne15",
+                "zoom": 0.5
+            },
+            {
+                "id": 245,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/20190925181813-217007/attach_file/wechat/b5edb1ab9e8346929e939394dd47c9f5",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "行者",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_07c8mfzssda322",
+                "zoom": 0.5
+            },
+            {
+                "id": 3,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/20190925181813-217007/attach_file/wechat/723e4dcbf498410eb27eb41d7bc05a10",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "Coco Yao - Topstar Automation",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_kfy9w7qyomlp12",
+                "zoom": 0.5
+            },
+            {
+                "id": 249,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/d9c281db166d842b6a4ddd3d2b558831/avatar",
+                "type": "ACCOUNT",
+                "accountType": "WECHAT_ACCOUNT",
+                "name": "慕唐",
+                "app": "微信",
+                "appCode": "1030036",
+                "accountKey": ":wxid_w00h5kjz91xb21",
+                "zoom": 0.5
+            },
+            {
+                "id": 8,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/d9f60eb482701825bbac25c55c0a72f0/avatar",
+                "type": "ACCOUNT",
+                "accountType": "QQ_ACCOUNT",
+                "name": "我现在是一个小哥哥",
+                "app": "QQ",
+                "appCode": "1030001",
+                "accountKey": ":2531212889",
+                "zoom": 0.5
+            },
+            {
+                "id": 207,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/4f1ae6af0643638d29e92eded99514f0/avatar",
+                "type": "ACCOUNT",
+                "accountType": "QQ_ACCOUNT",
+                "name": "QQ购物",
+                "app": "QQ",
+                "appCode": "1030001",
+                "accountKey": ":3046055438",
+                "zoom": 0.5
+            },
+            {
+                "id": 42,
+                "avatarUrl": "http://192.168.3.104:8000/api/oss/010000110000111111201902181916353976250673544320631992330/attach_file/alipay/T1l4ldXhXvXXXXXXXX_160X160.jpg",
+                "type": "ACCOUNT",
+                "accountType": "ALI_PAY_ACCOUNT",
+                "name": "爱萍",
+                "app": "支付宝",
+                "appCode": "1290007",
+                "accountKey": "2088802748636264:",
+                "zoom": 0.5
+            },
+            {
+                "id": 87,
+                "avatarUrl": "http://192.168.3.104:8000/api/jaqen/accounts/2cf211f28a669f8d0483eb00ebdad655/avatar",
+                "type": "ACCOUNT",
+                "accountType": "QQ_ACCOUNT",
+                "name": "p1",
+                "app": "QQ",
+                "appCode": "1030001",
+                "accountKey": ":985422541",
+                "zoom": 0.5
+            }
+        ],
+        "links": [
+            {
+                "source": 20638,
+                "target": 254,
+                "count": 1,
+                "direction": 0,
+                "relationId": "0c078fa006954c02a8406645edb96c09",
+                "name": "聊天"
+            },
+            {
+                "source": 244,
+                "target": 20638,
+                "count": 4,
+                "direction": 0,
+                "relationId": "150dc7ad569c4a968558c1fe7e6d9a74",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 75,
+                "count": 5,
+                "direction": 0,
+                "relationId": "34d4d95088a444689222e48652bc20b8",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 111,
+                "count": 1,
+                "direction": 0,
+                "relationId": "90496c8478d04a20b68e005a250f0a7c",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 29,
+                "count": 6,
+                "direction": 0,
+                "relationId": "95678daae0a74df49211915b7ab5679a",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 172,
+                "count": 4,
+                "direction": 0,
+                "relationId": "30036eb97de84e71b7189878c8b37843",
+                "name": "聊天"
+            },
+            {
+                "source": 152,
+                "target": 20638,
+                "count": 10,
+                "direction": 0,
+                "relationId": "626e0853e0b046539533eae455d091c0",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 250,
+                "count": 4,
+                "direction": 0,
+                "relationId": "86298a47802a4fdea113c96c5024a4d4",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 87,
+                "count": 5,
+                "direction": 0,
+                "relationId": "ae5a5557cd1646019bbb8b479a071b92",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 20639,
+                "count": 15,
+                "direction": 0,
+                "relationId": "f0495db35de2449f853caa94e2a7c2c5",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 118,
+                "count": 20,
+                "direction": 0,
+                "relationId": "eac564f85b31411fbd81d8c30dc78b87",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 230,
+                "count": 4,
+                "direction": 0,
+                "relationId": "c5a67b9cb75348ad85ebbe71bf063f4d",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 253,
+                "count": 7,
+                "direction": 0,
+                "relationId": "31a9b1e838c44d628ca1414df196eee7",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 42,
+                "count": 2,
+                "direction": 0,
+                "relationId": "429cfbaae9b14fa18ad9781e97e2a6e2",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 100,
+                "count": 21,
+                "direction": 0,
+                "relationId": "ff0d17c7854d45a98ec30044163235a2",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 245,
+                "count": 2,
+                "direction": 0,
+                "relationId": "de66ca9d0b124e18b0d06614cbefd17f",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 207,
+                "count": 1,
+                "direction": 0,
+                "relationId": "0ccd5ec91f8244b4aa289dbbe42f9f72",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 13,
+                "count": 3,
+                "direction": 0,
+                "relationId": "c6eead4aba3d44b08429b8cb30e2b021",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 33,
+                "count": 6,
+                "direction": 0,
+                "relationId": "941fe15eff6f4a028c5b21a7315e5490",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 28,
+                "count": 2,
+                "direction": 0,
+                "relationId": "ea5d75f9498549489401dca268af4af7",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 251,
+                "count": 5,
+                "direction": 0,
+                "relationId": "9fb9f0d1248b4944ae68844a3e1d6aeb",
+                "name": "聊天"
+            },
+            {
+                "source": 44,
+                "target": 20638,
+                "count": 1,
+                "direction": 0,
+                "relationId": "9659ec808a7143889265064f45c1d09f",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 8,
+                "count": 2,
+                "direction": 0,
+                "relationId": "e036dd7701024c9fa88756b9a9e84982",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 141,
+                "count": 1,
+                "direction": 0,
+                "relationId": "2c142c4bba9948d19fe89d6d51db33d2",
+                "name": "聊天"
+            },
+            {
+                "source": 20638,
+                "target": 249,
+                "count": 3,
+                "direction": 0,
+                "relationId": "f9c9749ea23a49de8891afcae2291363",
+                "name": "聊天"
+            },
+            {
+                "source": 71,
+                "target": 20638,
+                "count": 2,
+                "direction": 0,
+                "relationId": "4b0975b30d024c0e9be8a25b550fbeaa",
+                "name": "聊天"
+            },
+            {
+                "source": 3,
+                "target": 20638,
+                "count": 2,
+                "direction": 0,
+                "relationId": "2b9a3a0e0e5e47859da5bdaa25a4a4fe",
+                "name": "聊天"
+            },
+            {
+                "source": 20640,
+                "target": 20638,
+                "count": 5,
+                "direction": 0,
+                "relationId": "86388f9cd7644724b6c2f597c04f7aa0",
+                "name": "聊天"
+            }
+        ],
+        "nodeCategories": [
+            {
+                "name": "联系人",
+                "items": []
+            },
+            {
+                "name": "网络账户",
+                "items": [
+                    {
+                        "name": "微信帐号",
+                        "key": "WECHAT_ACCOUNT",
+                        "count": 14
+                    },
+                    {
+                        "name": "QQ帐号",
+                        "key": "QQ_ACCOUNT",
+                        "count": 7
+                    }
+                ]
+            },
+            {
+                "name": "群组",
+                "items": [
+                    {
+                        "name": "QQ群组",
+                        "key": "QQ_GROUP",
+                        "count": 1
+                    },
+                    {
+                        "name": "微信群组",
+                        "key": "WECHAT_GROUP",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "name": "金融账户",
+                "items": [
+                    {
+                        "name": "支付宝帐号",
+                        "key": "ALI_PAY_ACCOUNT",
+                        "count": 5
+                    }
+                ]
+            }
+        ]
+    }
+}
