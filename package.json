@@ -11,6 +11,8 @@
     "clone-deep": "^4.0.1",
     "core-js": "^2.6.5",
     "d3": "^5.9.2",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {

@@ -1,12 +1,6 @@
 <template>
     <div class="hello">
-        <!-- nodes-graph -->
-        <p>1234</p>
-        <p>234</p>
-        <p>1234</p>
-        <p>234</p>
-        <p>1234</p>
-        <p>234</p>
+        <button @click="startRender">switch {{ option.enableAnimation }}</button>
         <div ref="panel" class="nodes-graph-panel">
             <svg xmlns="http://www.w3.org/2000/svg" tagIndex="1" width="100%" height="100%" v-if="graphModel">
                 <!-- <defs>
@@ -29,34 +23,14 @@
                 </defs> -->
             </svg>
             <div class="empty-analysis" v-else>
-    
+
             </div>
         </div>
     </div>
 </template>
 
 <script src="./nodes-graph.js"></script>
-<style>
-    .hello p {
-        color: red;
-    }
-
-    .chartSvg rect {
-        fill: steelblue;
-    }
-
-    .chartSvg text {
-        fill: white;
-        font: 10px sans-serif;
-        text-anchor: end;
-    }
-    .test{
-        width: 100px;
-        height: 20px;
-        background: pink;
-        transform: translate(10px,100px)
-    }
-
+<style lang="less">
     /* .chart div {
         margin-top: 10px;
         background: bisque;
@@ -72,12 +46,34 @@
         font: 10px sans-serif;
         text-anchor: end;
     } */
-    .nodes-graph-panel{
-        border: 1px solid #ccc;
-        
+    * {
+        margin: 0;
+        padding: 0;
     }
-    .nodes-graph-panel svg .node{
-        width: 40px;
-        height: 70px;
+
+    .nodes-graph-panel {
+        width: 100vw;
+        height: 100vh;
+        border: 1px solid pink;
+    }
+
+    .nodes-graph-panel svg .node {
+        /* width: 40px;
+        height: 70px; */
+    }
+
+    .nodes-graph-panel svg .node span {
+        width: 100%;
+        height: 100%;
+        background: pink;
+        display: inline-block;
+        border-radius: 50%;
+    }
+
+    .nodes-graph-panel svg .line path {
+        stroke: #4b637f;
+        stroke-width: 1px;
+        fill: none;
+        cursor: pointer;
     }
 </style>
