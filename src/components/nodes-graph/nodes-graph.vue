@@ -1,7 +1,8 @@
 <template>
     <div class="hello">
-        <button @click="startRender">switch {{ option.enableAnimation }}</button>
+        <!-- <button @click="startRender">switch {{ option.enableAnimation }}</button> -->
         <div ref="panel" class="nodes-graph-panel">
+            <button class="buttonIcon" @click="toClick">click</button>
             <svg xmlns="http://www.w3.org/2000/svg" tagIndex="1" width="100%" height="100%" v-if="graphModel">
                 <!-- <defs>
                     <marker id="TriangleEnd" viewBox="0 0 16 16" refX="1" refY="8"
@@ -52,23 +53,39 @@
     }
 
     .nodes-graph-panel {
-        width: 100vw;
-        height: 100vh;
-        border: 1px solid pink;
+        width: 80vw;
+        height: 70vh;
+
+        .buttonIcon {
+            width: 80px;
+            height: 30px;
+        }
     }
 
     .nodes-graph-panel svg .node {
         /* width: 40px;
         height: 70px; */
+        border-radius: 50%;
+
+        .img-panel {
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+        }
     }
 
     .nodes-graph-panel svg .node span {
         width: 100%;
         height: 100%;
         background: pink;
+        border: 1px solid #4b637f;
         display: inline-block;
-        border-radius: 50%;
+        box-sizing: border-box;
+        text-align: center;
     }
+
 
     .nodes-graph-panel svg .line path {
         stroke: #4b637f;
