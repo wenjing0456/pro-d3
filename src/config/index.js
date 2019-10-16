@@ -1,0 +1,1 @@
+export const mapUrl = process.env.VUE_APP_MAP_URL

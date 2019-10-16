@@ -1,0 +1,29 @@
+<div class="mg-map" ref="el" @click="emitClick">
+        <div class="map-tool-options" @click.stop="" v-if="selectionToolbar">
+            <div class="map-option-btn" :class="{'selected':currentToolbar==='circle'}">
+                <div class="tool-icon circle-icon" @click.stop="enableShapeSelection('circle',true)"></div>
+            </div>
+            <div class="map-option-btn" :class="{'selected':currentToolbar==='rect'}">
+                <div class="tool-icon rect-icon" @click.stop="enableShapeSelection('rect',true)"></div>
+            </div>
+            <div class="map-option-btn" :class="{'selected':currentToolbar==='polygon'}">
+                <div class="tool-icon polygon-icon" @click.stop="enableShapeSelection('polygon',true)"></div>
+            </div>
+        </div>
+        <div v-if="trackEnabled" class="track-arrow-helps">
+            <!-- <?xml version="1.0"?> -->
+            <svg class="def-svg" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <marker id="map-path-TriangleEnd" viewBox="0 0 48 32" refX="1" refY="8"
+                            markerWidth="16" markerHeight="8" orient="auto">
+                        <path class="line-arrow" d="M 0 0 L 16 8 L 0 16 z" />
+                    </marker>
+                    <marker id="map-path-TriangleStart" viewBox="0 0 48 32" refX="16" refY="8"
+                            markerWidth="16" markerHeight="8" orient="auto">
+                        <path class="line-arrow" d="M 16 0 L 0 8 L 16 16 z" />
+                    </marker>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    

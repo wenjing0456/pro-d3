@@ -3,7 +3,7 @@
         <div class="header-bar">
             <ul class="tabList">
                 <li class="active">条型图<span>|</span></li>
-                <li>tracks 轨迹图</li>
+                <li>tracks 轨迹</li>
             </ul>
         </div>
         <div>
@@ -19,7 +19,7 @@
 
 <script>
     import Colors from '@/components/colors/index.vue'
-    import Tracks from '@/components/tracks/index.vue'
+    import Tracks from './track/index.vue'
     export default {
         name: 'app',
         components: {

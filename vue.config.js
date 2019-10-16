@@ -6,4 +6,11 @@ module.exports = {
         config.resolve.alias
             .set('@', resolve('src'))
     },
+    css: {
+        loaderOptions: {
+            less: {
+                javascriptEnabled: true
+            }
+        }
+    }
 }

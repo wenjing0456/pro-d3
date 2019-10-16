@@ -6,12 +6,12 @@
 </template>
 
 <script>
-    import HelloWorld from './components/nodes-graph/nodes-graph.vue'
+    // import HelloWorld from './components/nodes-graph/nodes-graph.vue'
 
     export default {
         name: 'app',
         components: {
-            HelloWorld
+            // HelloWorld
         }
     }
 </script>

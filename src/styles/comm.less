@@ -27,4 +27,16 @@ span.w-subTitle{
     background:#333;
     color:#fff;
     font-size: 14px;
+    overflow: hidden;
+    position: relative;
+    &::after{
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        right: -5px;
+        top: -5px;
+    }
 }
