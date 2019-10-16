@@ -1,27 +1,7 @@
 <template>
     <div class="hello">
-        <!-- <button @click="startRender">switch {{ option.enableAnimation }}</button> -->
         <div ref="panel" class="nodes-graph-panel">
-            <button class="buttonIcon" @click="toClick">click</button>
             <svg xmlns="http://www.w3.org/2000/svg" tagIndex="1" width="100%" height="100%" v-if="graphModel">
-                <!-- <defs>
-                    <marker id="TriangleEnd" viewBox="0 0 16 16" refX="1" refY="8"
-                            markerWidth="16" markerHeight="8" orient="auto">
-                        <path class="line-arrow" d="M 0 0 L 16 8 L 0 16 z" />
-                    </marker>
-                    <marker id="TriangleStart" viewBox="0 0 16 16" refX="16" refY="8"
-                            markerWidth="16" markerHeight="8" orient="auto">
-                        <path class="line-arrow" d="M 16 0 L 0 8 L 16 16 z" />
-                    </marker>
-                    <marker id="TriangleEndActive" viewBox="0 0 16 16" refX="1" refY="8"
-                            markerWidth="16" markerHeight="8" orient="auto">
-                        <path class="line-arrow-active" d="M 0 0 L 16 8 L 0 16 z" />
-                    </marker>
-                    <marker id="TriangleStartActive" viewBox="0 0 16 16" refX="16" refY="8"
-                            markerWidth="16" markerHeight="8" orient="auto">
-                        <path class="line-arrow-active" d="M 16 0 L 0 8 L 16 16 z" />
-                    </marker>
-                </defs> -->
             </svg>
             <div class="empty-analysis" v-else>
 

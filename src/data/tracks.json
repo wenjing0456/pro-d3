@@ -1,0 +1,56 @@
+{
+    "code": 0,
+    "message": "OK",
+    "data": [
+        {
+            "startTime": 1524526394754,
+            "endTime": 1556640000000,
+            "personId": 3,
+            "result": [
+                {
+                    "sourceApp": "未知应用",
+                    "geoType": "GPS",
+                    "start": {
+                        "address": "北京市丰台区南苑地区新宫社区",
+                        "timestamp": 1547225754000,
+                        "coordinate": {
+                            "latitude": 39.86493,
+                            "longitude": 116.2924,
+                            "elevation": 0.0
+                        }
+                    },
+                    "end": {
+                        "address": "",
+                        "timestamp": 1547231989000,
+                        "coordinate": {
+                            "latitude": 39.83048,
+                            "longitude": 116.30499,
+                            "elevation": 0.0
+                        }
+                    }
+                },
+                {
+                    "sourceApp": "未知应用",
+                    "geoType": "GPS",
+                    "start": {
+                        "address": "首都机场T3国内出发",
+                        "timestamp": 1556636100000,
+                        "coordinate": {
+                            "latitude": 40.06083,
+                            "longitude": 116.62082,
+                            "elevation": 0.0
+                        }
+                    },
+                    "end": {
+                        "address": "深圳市南山区白石路8号",
+                        "coordinate": {
+                            "latitude": 22.52954,
+                            "longitude": 113.99829,
+                            "elevation": 0.0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
