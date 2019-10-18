@@ -1,0 +1,9 @@
+.mg-draggable {
+  position: absolute;
+  box-sizing: border-box; }
+  .mg-draggable.mg-draggable-global {
+    position: fixed; }
+  .mg-draggable[moving] {
+    background-color: red; }
+
+/*# sourceMappingURL=comp.css.map */

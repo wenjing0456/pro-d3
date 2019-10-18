@@ -1,0 +1,15 @@
+<div class="mg-table" ref="el">
+    <header class="mg-table-header">
+        <div class="mg-header-content">
+            <slot name="headers"></slot>
+        </div>
+        <slot name="headerAppend"></slot>
+    </header>
+    <div class="mg-table-body">
+        <div class="mg-body-content">
+            <slot v-if="layout" name="rows"></slot>
+        </div>
+        <slot name="bodyAppend"></slot>
+    </div>
+    <slot></slot>
+</div>

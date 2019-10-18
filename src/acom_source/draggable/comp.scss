@@ -1,0 +1,10 @@
+.mg-draggable{
+  position: absolute;
+  box-sizing:border-box;
+  &.mg-draggable-global{
+    position: fixed;
+  }
+  &[moving]{
+    background-color:red;
+  }
+}

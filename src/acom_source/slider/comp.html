@@ -1,0 +1,34 @@
+<div class="mg-slider-block">
+    <header class="slider-header">{{title}}</header>
+    <div class="block-content">
+        <div class="block-header">{{maxTitle}}</div>
+        <div class="block">
+            <template>
+                <div class="block-item" :style="{height:sliderHeight(option,index+1),background:getSliderBg(index)}" v-for="(option,index) in reverseValues">
+                    <i class="b-top">{{option.name}}</i>
+                </div>
+            </template>
+            <div ref="indicator" class="block-indicator">
+                <div ref="indicatorMax" :style="{bottom:indicator.max + 'px'}" class="max">
+                    <div class="max-content">
+                        <svg viewBox="0 0 100 100"
+                             version="1.1" xmlns="http://www.w3.org/2000/svg"  width="100%" height="100%">
+                            <path d="M100 0L100 100L0 100L100 0Z"></path>
+                        </svg>
+                    </div>
+                    <i v-if="!disperse" class="indicator-tips">{{maxCaption}}</i>
+                </div>
+                <div ref="indicatorMin" :style="{bottom:indicator.min + 'px'}" class="min">
+                    <div class="min-content">
+                        <svg viewBox="0 0 100 100"
+                             version="1.1" xmlns="http://www.w3.org/2000/svg"  width="100%" height="100%">
+                            <path d="M0 0L100 0L100 100L0 0Z"></path>
+                        </svg>
+                    </div>
+                    <i v-if="!disperse" class="indicator-tips">{{minCaption}}</i>
+                </div>
+            </div>
+        </div>
+        <div class="block-footer">{{minTitle}}</div>
+    </div>
+</div>
