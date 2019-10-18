@@ -2,12 +2,16 @@
     <div id="app">
         <!-- <div>test</div> -->
         <HelloWorld />
-        <button class="btn" @click="toColor">
+        <button class="btn">
             <router-link :to="{name: 'color'}" class="route">
                 <span>to color</span>
             </router-link>
         </button>
-        
+        <button class="btn">
+            <router-link :to="{name: 'comp'}" class="route">
+                <span>components</span>
+            </router-link>
+        </button>
     </div>
 </template>
 
@@ -21,13 +25,14 @@
             HelloWorld
         },
         methods:{
-            toColor(){
 
-            }
         }
     }
 </script>
 
-<style>
-
+<style scoped lang="less">
+    button{
+        margin-top: 10px;
+        display: block;
+    }
 </style>

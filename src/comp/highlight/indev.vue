@@ -1,7 +1,5 @@
 <template>
-    <div class="container">
-        
-    </div>
+    <span :title="text" v-html="highlight"></span>
 </template>
 
 <script>
@@ -11,7 +9,7 @@
             
         },
         props:{
-            keyword:{
+            keywords:{
                 type:String|Array,
                 default:''
             },
@@ -24,9 +22,30 @@
                 default:true
             }
         },
+        computed:{
+            highlight(){
+                var keywords = this.keywords,
+                    text = this.text;
+                if(keywords && !(keywords instanceof Array)){//string
+                    keywords = [keywords];
+                }
+                if(!text || keywords.length === 0){
+                    return text;
+                }
+
+                
+                return 'xxx'
+            }
+        },
         methods:{
-            
+            init(){
+                console.log(this.keyword instanceof Array)
+            }
+        },
+        mounted(){
+            this.init()
         }
+        
     }
 </script>
 

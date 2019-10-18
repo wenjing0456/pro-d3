@@ -9,4 +9,9 @@ export default [
         name:'color',
         component:() => import('@/views/detail/index.vue')
     },
+    {
+        path:'/comp',
+        name:'comp',
+        component:() => import('@/views/comp/index.vue')
+    },
 ]
