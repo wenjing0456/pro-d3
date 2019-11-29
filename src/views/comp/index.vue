@@ -10,7 +10,7 @@
     export default {
         data(){
             return {
-                text:'我12345.<>0876543',
+                text:'我12345.<>?+0876543',
                 keyword:'我'
             }
         },

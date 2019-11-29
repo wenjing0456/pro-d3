@@ -33,8 +33,8 @@
     }
 
     .nodes-graph-panel {
-        width: 80vw;
-        height: 70vh;
+        width: 100vw;
+        height: 100vh;
 
         .buttonIcon {
             width: 80px;

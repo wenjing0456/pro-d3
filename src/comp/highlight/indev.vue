@@ -32,9 +32,21 @@
                 if(!text || keywords.length === 0){
                     return text;
                 }
-
-                
-                return 'xxx'
+                keywords = keywords.map(function(keyword){
+                    return keyword.replace(/(\?|\(|\)|\.|\+)/g,'\\$1');
+                })
+                var options = ['g'];
+                if(this.ignoreCase){
+                    options.push('i');
+                }
+                keywords.forEach(keyword => {
+                    var regexp = keyword;
+                    regexp = new RegExp(keyword,options.join(''));
+                    text.replace(regexp,function(all,index){
+                        
+                    })
+                });
+                return '<i class="mg-highlight">'+ text +'</i>';
             }
         },
         methods:{
@@ -50,5 +62,8 @@
 </script>
 
 <style>
-
+    .mg-highlight{
+        color: #fff;
+        background: burlywood;
+    }
 </style>
